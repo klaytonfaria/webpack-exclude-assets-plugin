@@ -26,7 +26,8 @@
     "url": "https://github.com/klaytonfaria/exclude-assets-plugin/issues"
   },
   "scripts": {
-    "test": "webpack --config example/webpack.config.js --mode production"
+    "test": "webpack --config example/webpack.config.js --mode production",
+    "release": "standard-version"
   },
   "homepage": "https://github.com/klaytonfaria/exclude-assets-plugin",
   "devDependencies": {
@@ -34,6 +35,7 @@
     "babel-preset-env": "^1.6.1",
     "css-loader": "^1.0.0",
     "mini-css-extract-plugin": "^0.4.2",
+    "standard-version": "^4.4.0",
     "webpack": "^4.17.1",
     "webpack-command": "^0.4.1",
     "webpack-log": "^2.0.0"
