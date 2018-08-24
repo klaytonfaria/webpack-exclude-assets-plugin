@@ -1,11 +1,11 @@
 {
-  "name": "exclude-assets-plugin",
+  "name": "webpack-exclude-assets-plugin",
   "version": "0.1.0",
   "description": "Plugin to exclude assets from webpack output",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:klaytonfaria/exclude-assets-plugin.git"
+    "url": "git@github.com:klaytonfaria/webpack-exclude-assets-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -23,13 +23,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/klaytonfaria/exclude-assets-plugin/issues"
+    "url": "https://github.com/klaytonfaria/webpack-exclude-assets-plugin/issues"
   },
   "scripts": {
     "test": "webpack --config example/webpack.config.js --mode production",
     "release": "standard-version"
   },
-  "homepage": "https://github.com/klaytonfaria/exclude-assets-plugin",
+  "homepage": "https://github.com/klaytonfaria/webpack-exclude-assets-plugin",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",

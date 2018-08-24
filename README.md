@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/exclude-assets-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/exclude-assets-plugin/)
+[![NPM](https://nodei.co/npm/webpack-exclude-assets-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/webpack-exclude-assets-plugin/)
 
 Webpack plugin to exclude assets from webpack output based on a path RegExp pattern.
 
@@ -12,7 +12,7 @@ When we have css, scss, sss, stylus or some style file as an entry for example, 
 // webpack.config.js
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const ExcludeAssetsPlugin = require("exclude-assets-plugin");
+const ExcludeAssetsPlugin = require("webpack-exclude-assets-plugin");
 
 module.exports = {
   entry: { ... },
@@ -43,7 +43,7 @@ module.exports = {
 // webpack.config.js
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const ExcludeAssetsPlugin = require("exclude-assets-plugin");
+const ExcludeAssetsPlugin = require("webpack-exclude-assets-plugin");
 
 module.exports = {
   entry: {
@@ -79,7 +79,7 @@ module.exports = {
   }
 };
 ```
-### Output three **before** using `exclude-assets-plugin`:
+### Output three **before** using `webpack-exclude-assets-plugin`:
 ```
 .
 ├── css
@@ -92,7 +92,7 @@ module.exports = {
 3 directories, 3 files
 
 ```
-### Output file three **after** using `exclude-assets-plugin`:
+### Output file three **after** using `webpack-exclude-assets-plugin`:
 ```
 .
 ├── css
