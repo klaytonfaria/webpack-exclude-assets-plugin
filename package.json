@@ -1,6 +1,6 @@
 {
   "name": "webpack-exclude-assets-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin to exclude assets from webpack output",
   "main": "index.js",
   "repository": {
