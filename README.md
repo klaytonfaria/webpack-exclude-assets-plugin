@@ -79,7 +79,7 @@ module.exports = {
   }
 };
 ```
-### Output three **before** using `webpack-exclude-assets-plugin`:
+### Output tree **before** using `webpack-exclude-assets-plugin`:
 ```
 .
 ├── css
@@ -92,7 +92,7 @@ module.exports = {
 3 directories, 3 files
 
 ```
-### Output file three **after** using `webpack-exclude-assets-plugin`:
+### Output file tree **after** using `webpack-exclude-assets-plugin`:
 ```
 .
 ├── css
