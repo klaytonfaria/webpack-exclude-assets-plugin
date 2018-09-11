@@ -220,8 +220,8 @@ ansi-align@^2.0.0:
     string-width "^2.0.0"
 
 ansi-colors@^3.0.0:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.0.4.tgz#50ceab04f070bf323141652664e104f7d09e3e3b"
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.0.5.tgz#cb9dc64993b64fd6945485f797fc3853137d9a7b"
 
 ansi-regex@^2.0.0:
   version "2.1.1"

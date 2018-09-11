@@ -37,7 +37,9 @@
     "mini-css-extract-plugin": "^0.4.2",
     "standard-version": "^4.4.0",
     "webpack": "^4.17.1",
-    "webpack-command": "^0.4.1",
+    "webpack-command": "^0.4.1"
+  },
+  "dependencies": {
     "webpack-log": "^2.0.0"
   }
 }
