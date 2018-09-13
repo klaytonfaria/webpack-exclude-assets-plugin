@@ -1,4 +1,7 @@
+Webpack exclude assets plugin  ![npm](https://img.shields.io/npm/dt/webpack-exclude-assets-plugin.svg)
+===
 [![NPM](https://nodei.co/npm/webpack-exclude-assets-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/webpack-exclude-assets-plugin/)
+
 
 Webpack plugin to exclude assets from webpack output based on a path RegExp pattern.
 
