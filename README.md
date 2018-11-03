@@ -7,7 +7,7 @@ Webpack plugin to exclude assets from webpack output based on a path RegExp patt
 
 ## Why?
 
-When we have css, scss, sss, stylus or some style file as an entry for example, using some plugin to extract chunck as a separeted file as [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) or [`extract-text-webpack-plugin`](https://github.com/webpack-contrib/extract-text-webpack-plugin), Webpack give us as a output a js file with some empty functions. I think that's files does'nt matter for us, so this plugin removes it.  :)
+When we have css, scss, sss, stylus or some style file as an entry, for example, using some plugin to extract chunk as a separated file as [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) or [`extract-text-webpack-plugin`](https://github.com/webpack-contrib/extract-text-webpack-plugin), Webpack give us as an output a js file with some empty functions. I think that's files doesn't matter for us, so this plugin removes it. :)
 
 ## Configuration:
 
